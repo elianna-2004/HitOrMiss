@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Number Verifier</title>
+        <link rel="stylesheet" href="style.css" title="Style">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <form action="http://localhost:5000/search" method="post">
+            <div>
+                <h1><u>Check Before Text</u></h1>
+                <h2>Got a number? Check it's the real deal.</h2>
+            </div>
+
+            <fieldset>
+                <br>
+                <label>Give Us The Number, We'll Check:</label><br><br>
+                <input type="text" placeholder="" name="phone"> <br><br>
+
+                <label><em>Include the Area Code, Omit All Dashes and Spaces!</em></label><br><br>
+
+            </fieldset><br>
+
+            <input type="Submit" value="Verify"><br>
+
+            <input type="reset" value="Reset"><br>
+        </form>
+
+        <br><a href="/">Home</a>
+        <br>
+        <hr>
+        <footer>
+            Brought to you by the API: <strong>NumVerify</strong> &copy
+        </footer>
+        <br>
+
+    </body>
+
+</html>

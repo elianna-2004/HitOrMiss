@@ -1,0 +1,40 @@
+html {
+    font-size: larger;
+    font-family: 'Roboto';
+    background-color:cornflowerblue;
+
+}
+
+
+div, h1, p, form, input, label, h2{
+    display: grid;
+    place-self: center;
+}
+
+h3 {
+    background-color:ghostwhite;
+
+}
+
+input {
+    border-color: darkred;
+    border-width: 4px;
+
+}
+
+a, button, input {
+    background-color:burlywood;
+    text-align: center;
+    color:darkred;
+
+    display: grid;
+    place-self: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    width: 130px;
+}
+
+body {
+    background-color:cornsilk;
+
+}

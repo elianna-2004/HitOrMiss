@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Number History</title>
+
+        <link rel="stylesheet" href="style.css" Title="Style">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Numbers Searched:</h1>
+	    <div>
+		    <%- itemsTable %>
+	    </div>
+        <br>
+
+        <form action="http://localhost:5000/remove" method="post">
+
+            <input type="submit" value="Clear History"/>
+            <hr>
+	    </form>
+
+        <br><a href="/">Home</a>
+        <br>
+        <br>
+    </body>
+
+</html>
